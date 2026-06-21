@@ -115,5 +115,9 @@ Guards are created via **Admin → Manage Guards → Add Guard**.
 - [ ] Add unit tests for model classes
 - [ ] Export prisoner/cell reports to PDF or CSV
 
+## Contributors
+- [Neamah Khawar](https://github.com/neamah-k) — core development
+- [Aila Naeem](https://github.com/ailaa159) — UI design / testing
+
 ## License
 This project is open source and available under the [MIT License](LICENSE).
