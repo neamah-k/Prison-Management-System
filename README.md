@@ -120,7 +120,7 @@ Guards are created via **Admin → Manage Guards → Add Guard**.
 - [Aila Naeem](https://github.com/ailaa159) — UI design / testing
 
 ## Note
-- This project was built as an OOP course project demonstrating OOP concepts like Inheritance, Encapsulation, Operator Overloading, Static Methods and Composition.
+- This project was built as an OOP course project demonstrating OOP concepts including Inheritance, Encapsulation, Operator Overloading, Static Methods and Composition.
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
