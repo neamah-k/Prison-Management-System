@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sindh-police-logo.png</file>
+    </qresource>
+</RCC>

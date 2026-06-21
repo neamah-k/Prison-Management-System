@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewGuards</class>
+ <widget class="QDialog" name="ViewGuards">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font-family: century gothic;
+
+}
+
+#ViewGuards{
+	background-color:#001F3F;
+}
+
+#exit_btn{
+	background-color : #cb0000 ;
+	border-radius : 10px;
+	color:white;
+	padding:10px;
+	font-size: 15px;
+}
+
+#exit_btn:hover{
+	background-color: #850101;
+}
+
+#label{
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 3px solid gray;
+    gridline-color: gray;
+    font-size: 14px;
+color:black;
+}
+
+QHeaderView{
+	font: 700, 16pt;
+}
+</string>
+  </property>
+  <widget class="QTableWidget" name="guardsTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>671</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>290</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Guards:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

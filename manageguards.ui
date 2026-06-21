@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageGuards</class>
+ <widget class="QDialog" name="ManageGuards">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font-family: century gothic;
+
+}
+
+#ManageGuards{
+	background-color:#001F3F;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 3px solid gray;
+    gridline-color: gray;
+    font-size: 14px;
+	color:black;
+}
+
+QHeaderView{
+	font: 700, 16pt;
+}
+
+#addGuard_btn,#assignCell_btn,#exit_btn,#removeGuard_btn{
+	background-color : #cb0000 ;
+	border-radius : 10px;
+	color:white;
+	padding:10px;
+	font-size: 15px;
+}
+
+#addGuard_btn:hover,#assignCell_btn:hover,#exit_btn:hover,#removeGuard_btn:hover{
+	background-color: #850101;
+}
+
+#label{
+	font-size: 20px;
+	font-weight:bold;
+	color:white;
+}</string>
+  </property>
+  <widget class="QTableWidget" name="guardsTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>671</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addGuard_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>290</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Guard</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="assignCell_btn">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>340</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Assign Cell</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeGuard_btn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>290</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Guard</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>290</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Manage Guards</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

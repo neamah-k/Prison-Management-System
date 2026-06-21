@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewPrisoners</class>
+ <widget class="QDialog" name="ViewPrisoners">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font-family: century gothic;
+
+}
+
+#ViewPrisoners{
+	background-color:#001F3F;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 3px solid gray;
+    gridline-color: gray;
+    font-size: 14px;
+color:black;
+}
+
+QHeaderView{
+	font: 700, 16pt;
+}
+
+#view_all_prisoners_btn,#view_cur_prisoners_btn,#search_btn,#exit_btn{
+	background-color : #cb0000 ;
+	border-radius : 10px;
+	color:white;
+	padding:10px;
+	font-size: 15px;
+}
+
+#view_all_prisoners_btn:hover,#view_cur_prisoners_btn:hover,#search_btn:hover,#exit_btn:hover{
+	background-color: #850101;
+}
+
+#label{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}
+
+#searchLabel{
+	font-size:16px;
+	color:white;
+}</string>
+  </property>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>610</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="searchLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="prisonersTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>1051</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_cur_prisoners_btn">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>100</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Current Prisoners</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="view_all_prisoners_btn">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>100</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View All Prisoners</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="search_btn">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>100</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Prisoners:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="searchLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

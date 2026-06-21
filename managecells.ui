@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManageCells</class>
+ <widget class="QDialog" name="ManageCells">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+	font-family: century gothic;
+
+}
+
+#ManageCells{
+	background-color:#001F3F;
+}
+
+#addCell_btn,#assignPrisoner_btn,#exit_btn,#removeCell_btn,#removePrisoner_btn,#viewPrisoners_btn{
+	background-color : #cb0000 ;
+	border-radius : 10px;
+	color:white;
+	padding:10px;
+	font-size: 15px;
+}
+
+#addCell_btn:hover,#assignPrisoner_btn:hover,#exit_btn:hover,#removeCell_btn:hover,#removePrisoner_btn:hover,#viewPrisoners_btn:hover{
+	background-color: #850101;
+}
+
+QTableWidget {
+    background-color: white;
+    border: 3px solid gray;
+    gridline-color: gray;
+    font-size: 14px;
+color:black;
+}
+
+QHeaderView{
+	font: 700, 16pt;
+}
+
+#label{
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+}</string>
+  </property>
+  <widget class="QTableWidget" name="cellsTableWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>70</y>
+     <width>671</width>
+     <height>191</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addCell_btn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Cell</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="assignPrisoner_btn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>280</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Assign Prisoner</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removePrisoner_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Prisoner</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>280</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="removeCell_btn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>330</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove Cell</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="viewPrisoners_btn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>280</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>View Prisoners</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Manage Cells:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
