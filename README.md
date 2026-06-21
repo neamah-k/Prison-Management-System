@@ -8,15 +8,15 @@ A desktop application built with **C++** and **Qt (Qt Creator)** that simulates 
 ![Login Screen](screenshots/login.png)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots\AdminDashboard1.png)
+![Admin Dashboard](screenshots/AdminDashboard1.png)
 
-![Admin Dashboard2](screenshots\AdminDashboard2.png)
-
-### Warden Dashboard
-![Warden Approval](screenshots\WardenDashboard.png)
+![Admin Dashboard2](screenshots/AdminDashboard2.png)
 
 ### Warden Dashboard
-![Guard Approval](screenshots\Guardashboard.png)
+![Warden Approval](screenshots/WardenDashboard.png)
+
+### Warden Dashboard
+![Guard Approval](screenshots/Guardashboard.png)
 
 ## Features
 
