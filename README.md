@@ -15,7 +15,7 @@ A desktop application built with **C++** and **Qt (Qt Creator)** that simulates 
 ### Warden Dashboard
 ![Warden Approval](screenshots/WardenDashboard.png)
 
-### Warden Dashboard
+### Guard Dashboard
 ![Guard Approval](screenshots/Guardashboard.png)
 
 ## Features
