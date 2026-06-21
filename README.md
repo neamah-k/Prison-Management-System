@@ -101,7 +101,7 @@ Guards are created via **Admin → Manage Guards → Add Guard**.
 ### Build & Run
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/prison-management-system.git
+   git clone https://github.com/neamah-k/Prison-Management-System.git
    ```
 2. Open `CMakeLists.txt` file in Qt Creator
 3. Build and run (`Ctrl+R` / green ▶ button)
