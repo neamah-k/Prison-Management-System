@@ -103,7 +103,7 @@ Guards are created via **Admin → Manage Guards → Add Guard**.
    ```bash
    git clone https://github.com/<your-username>/prison-management-system.git
    ```
-2. Open the `.pro` file in Qt Creator
+2. Open `CMakeLists.txt` file in Qt Creator
 3. Build and run (`Ctrl+R` / green ▶ button)
 4. On first launch, the app auto-generates `admins.dat` and `wardens.dat` with the default credentials above
 
